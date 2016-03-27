@@ -1,0 +1,134 @@
+body {
+  background: #92261E;
+  background-color: #92261E; }
+
+.reveal {
+  color: #fff;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  color: #F8F2E0;
+}
+.reveal h3 {
+  margin: 30px 0 20px 0;
+}
+
+.reveal a:not(.image) {
+  color: #fff;
+  font-weight: bold;
+}
+
+.reveal li {
+  padding: .25em 0;
+}
+.reveal li.short {
+  padding: 0;
+}
+
+.reveal a:not(.image):hover {
+  color: #eee8d5;
+}
+
+.reveal section img {
+  background: none;
+  border: none;
+  box-shadow: none; }
+
+.reveal a:hover img {
+  background: none;
+  border-color: none;
+  box-shadow: none; }
+
+.reveal .progress span {
+  background: #eee8d5;
+}
+
+.reveal iframe {
+  border: 15px solid rgba(20,20,20,.5);
+  border-radius: 10px;
+  margin-top: 1em;
+  background: #fff;
+}
+
+.reveal table {
+  margin: 0 auto;
+}
+
+.reveal table th {
+  text-align: right;
+}
+
+.reveal #venue-details {
+  font-size: 1.5em;
+}
+.reveal #venue-details p {
+  margin-top: 30px;
+}
+
+/* [@geeksam sucks at css]
+.reveal div#thanks {
+  margin-bottom: 70px;
+}
+.reveal div#thanks h4 {
+  margin-top: -40px;
+  vertical-align: center;
+}
+.reveal div#thanks img {
+  margin: 0 0 -40px 0;
+}
+*/
+
+.reveal .smaller {
+    font-size: .8em;
+}
+
+/* animation */
+a.slider {
+  animation-name: across-slide;
+  animation-duration: 10s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 200px;
+  left: -500px;
+}
+a#vine1,
+a#vine3,
+a#twitter-slide {
+  animation-name: diagonal-slide;
+  top: -400px;
+  left: 0px;
+}
+a#brightnight {
+  animation-name: down-slide;
+  top: -500px;
+  left: 0px;
+}
+a#blackcats {
+  animation-name: across2-slide;
+  top: 100px;
+  left: -500px;
+}
+
+@keyframes across-slide {
+  from { left: -500px; top: 200px; }
+  to { left: 1000px; top: 200px; }
+}
+@keyframes across2-slide {
+  from { left: -500px; top: 100px; }
+  to { left: 1000px; top: 100px; }
+}
+@keyframes diagonal-slide {
+  from { left: 0px; top: -500px; }
+  to { left: 800px; top: 800px; }
+}
+@keyframes down-slide {
+  from { left: 0px; top: -500px; }
+  to { left: 0px; top: 800px; }
+}
