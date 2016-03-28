@@ -6,6 +6,12 @@ body {
   color: #fff;
 }
 
+::selection {
+	background: #13a89e;
+	color: #fff;
+	text-shadow: none;
+}
+
 .reveal h1,
 .reveal h2,
 .reveal h3,
@@ -19,8 +25,12 @@ body {
   margin: 30px 0 20px 0;
 }
 
+
+.reveal .landingpage {
+  color: #666666;
+}
 .reveal a:not(.image) {
-  color: #fff;
+  color: #666666;
   font-weight: bold;
 }
 

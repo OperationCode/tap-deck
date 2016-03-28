@@ -45,20 +45,18 @@
 
       <!-- Any section element inside of this container is displayed as a slide -->
       <div class="slides">
-
         <!-- Slide  -->
-        <section data-background="#ffffff">
+        <section class="landingpage" data-background="#ffffff">
           <a href="http://operationcode.org">
             <img alt="oc_banner" src="content/operation_code.png">
           </a>
           <hr><br>
-          <h3 style="color: #666666">On a mission to help America's active duty military, guard & reserve citizen-soldiers, Veterans and military families learn to code and build software to change the world.</h3>
+          <h3 class="landingpage">On a mission to help America's active duty military, guard & reserve citizen-soldiers, Veterans and military families learn to code and build software to change the world.</h3>
         </section>
 
         <!-- Slide -->
-        <section>
-          <iframe src="https://player.vimeo.com/video/124866675" width="640" height="360" frameborder="1" webkitallowfullscreen mozallowfullscreen allowfullscreen>
-          </iframe>
+        <section id="slide2">
+          <iframe src="https://player.vimeo.com/video/124866675" width="640" height="360" frameborder="1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </section>
 
         <!-- Slide -->
@@ -190,6 +188,7 @@
         center: true,
         autoSlide: 20000,
         autoSlideStoppable: true,
+        overview: true,
 
         theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
         transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
