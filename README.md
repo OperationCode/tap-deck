@@ -7,6 +7,6 @@ Controls:
 
 Slides to be shown before TAP briefings. Written using reveal.js.
 
-You can view the show at http://blog.operationcode.org/tap-deck/.
+You can view the show at http://operationcode.github.io/tap-deck/ 
 
 Inspired by [PDX Ruby Slide Deck](https://github.com/pdxruby/preshow).
