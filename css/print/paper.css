@@ -42,7 +42,7 @@ html {
 
 /* SECTION 3: Set body font face, size, and color.
    Consider using a serif font for readability. */
-body, p, td, li, div, a {
+body, p, td, li, div {
 	font-size: 16pt!important;
 	font-family: Georgia, "Times New Roman", Times, serif !important;
 	color: #000;
@@ -73,7 +73,7 @@ h6 { font-size: 18pt !important; font-style: italic; }
    the URL to the end of the link for usability. */
 a:link,
 a:visited {
-	color: #000 !important;
+	color: #fff;
 	font-weight: bold;
 	text-decoration: underline;
 }
